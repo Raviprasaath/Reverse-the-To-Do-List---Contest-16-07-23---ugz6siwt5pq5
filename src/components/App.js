@@ -33,9 +33,9 @@ function App() {
       <button onClick={reverseOrder}>Reverse</button>
       <table>
         <tbody>
-          <todos.map(todo => (
-            <ToDo key = {todo.id} id = {todo.id} createdAt={todo.createdAt}>
-          ))>
+          {todos.map(todo => (
+            <ToDo key = {todo.id} id = {todo.id} createdAt={todo.createdAt} />
+          ))}
         </tbody>
       </table>
     </div>
