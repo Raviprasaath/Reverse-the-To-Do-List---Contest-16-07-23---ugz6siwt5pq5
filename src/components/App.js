@@ -7,7 +7,7 @@ function ToDo({id, createdAt}) {
       <p>{id}</p>
     </td>
     <td>
-      <input defaultValue="hi" />
+      <input />
     </td>
     <td>
       <p>{createdAt}</p>
